@@ -1,0 +1,21 @@
+{
+  "name": "larablock/clients",
+  "description": "Gestion de la clientèle",
+  "homepage": "http://github.com/larablock/clients",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Simon STEPHAN",
+      "email": "contact@agoraweb.fr"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "~5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Larablock\\Clients\\": "src/"
+    }
+  }
+}
